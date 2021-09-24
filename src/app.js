@@ -42,7 +42,7 @@ app.get('/help',(req,res)=>{
     // }])
     res.render('help',{
         title:'Help',
-        message:'Help me',
+        message:'Help Page',
         name:'Nilesh'
     })
 })
